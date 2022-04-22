@@ -1,0 +1,16 @@
+<h1>User info</h1>
+<p> <%= image_tag post_image.user.get_profile_image(100,100) %></p>
+
+<table>
+  <tbody>
+    <tr>
+      <th>name</th>
+      <th><%= current_user.name %></th>
+    </tr>
+    <tr>
+      <th>introduction</th>
+      <th><%= current_user.introduction %></th>
+    </tr>
+    
+  </tbody>
+</table>
